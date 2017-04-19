@@ -47,11 +47,6 @@ server.on('hl7', function (data){
 server.send('127.0.0.1', 4321, 'outbound-hl7-message', function (err, ackData) {
     // async callback code here
 });
-```
-
-## Contributing
-
-Contributors are welcome. See issues on [GitHub issues](https://github.com/amida-tech/mllp/issues)
 
 ## Release Notes
 
